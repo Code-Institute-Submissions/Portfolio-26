@@ -1,6 +1,7 @@
- body {
+	 body {
     position: relative; 
     font-family: "Roboto", sans-serif;
+    color:#333333;
   }
 
 h1::first-letter {
@@ -9,32 +10,73 @@ h1::first-letter {
   text-decoration: underline;
 } 
  
+.navbar
+{
+background-color: #e3dfc8;
+border: none;
+}
+
+.nav navbar-nav
+{
+color:#333333;
+}
+
+.navbar-inverse .navbar-nav>.active>a
+{
+background-color: #f5f1da;
+color:black;
+}
+
+.navbar-inverse .navbar-nav>.active>a
+{
+background-color: #f5f1da;
+color:black;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover
+{
+background-color: #f5f1da;
+color:black;
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+color:black;
+background-color: #f5f1da;
+}
+
+.navbar-inverse .navbar-nav>a:hover
+{
+background-color: green;
+color:blue;
+}
 
 .title-li
 {
 font-size: 1.2em;
 }
+
+.personal-bio-h
+{
+color: #333333;
+}
+
+
 .personal-bio-p
 {
 font-size: 1.2em;
+color: #333333;
 }
 
-#images
-{
-padding-bottom: 50px;
-}
 .hyper
 {
 color:blue;
 text-decoration: none; 
-color: inher;
 }
 
 .hyper:hover
 {
 color: black;
 text-decoration: none;
-
 }
 
 .navbar
@@ -42,21 +84,12 @@ text-decoration: none;
 opacity: 0.9;
 }
 
- #images
- {
- background-color:  #eee;
- }
 
-
-.img-responsive 
-{
-height: ;
-}
    #section1 
    {
    	padding-top:50px;
    	height: 100vh; 
-   	color: #fff;
+   	color: #333333;
    	background-color: transparent;
    	background-attachment: fixed;
     background-image: url(img/map-img.jpg);
@@ -65,8 +98,13 @@ height: ;
 	margin-bottom: 0px;}
 
 #title-info
-{background-color: transparent!important;
-color: black;}
+{
+margin-top: 50px;
+background-color: transparent!important;
+color: #333333;
+}
+
+
 
 
   #section2 
@@ -74,17 +112,16 @@ color: black;}
   	padding-top:100px;
   	padding-bottom: 100px;
    	height: ;
-   	background-color: #eee;
-   	
+   	background-color: #f5f1da;
+   	color: #333333;
   }
 
   #section3 
   {
-  	border-top:1px solid black;
-  	
+  	border-top: 1px solid black;
   	padding-bottom: 100px;
   	font-size: 1.2em;
-  	color:black ; 
+  	color: #333333;
   	background-color:#fff;
   	font-size: 1.2em;
   	background-attachment: fixed;
@@ -97,20 +134,25 @@ color: black;}
 
  #projects-item
 {
-margin:10px;
+margin-bottom: 10px;
 opacity: 0.9;
-background-color: lightgrey;
+background-color: #f5f1da;
 border-radius: 10px;
 padding: 20px;
+color: #333333;
 }
 
-
+.caro-img
+{
+height: 300px;
+width: 300px;
+}
 
 #smile
 {
 height: 300px;
-width: 300px;
-padding-bottom: 10px;
+width: 100%;
+margin-bottom: 10px;
 }
 
 #projects-jumbo
@@ -126,6 +168,7 @@ opacity: ;
  height: 100vh;
  color: #fff; 
  background-color: #00bcd4;
+ color: #333333;
  
 }
 
@@ -135,16 +178,19 @@ opacity: ;
 
 #contact-me
 {
+background-color: #e3dfc8; 
 margin-bottom: 0px;
-
+color: #333333;
 }
 
 .contact-me-h
 {
 padding: 10px;
+
 }
 
 .contact-me-p
 {
 padding: 10px;
+
 }
