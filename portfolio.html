@@ -1,19 +1,22 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
 	<title>My Portfolio</title>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
-	<link href="portfolio.css" rel="stylesheet">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link href="portfolio.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+
+  <link href="your-project-dir/font-css/LineIcons.css" rel="stylesheet">
+  <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<link >
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -31,12 +34,11 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#section1">Section 1</a></li>
-          <li><a href="#section2">Section 2</a></li>
-          <li><a href="#section3">Section 3</a></li>
-          <li><a href="#section4">Section 4</a></li>
-          <li><a href="#section4">Section 4</a></li>
-          <li><a href="#contact-me">Contact me</a></li>
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">About</a></li>
+          <li><a href="#section3">Projects</a></li>
+          <li><a href="#section4">Work Experience</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
             </ul>
           </li>
         </ul>
@@ -49,119 +51,209 @@
 <div id="section1" class="container-fluid">
 
 <div class="jumbotron text-center" id="title-info">
-<img  src="img/smile.jpg" class="img-circle" alt="smile" style="height: 100px; width: 100px" id="smile"> 
+
 <h1>
   David Murphy
+
 </h1>
-<p>
+<p class="title-li">
   Full-Stack Software Developer
 </p>
-<ul>
-  <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
-</svg>   Kerry, Ireland</li>
-<li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-</svg> +353 1111111</li>
+<p><span class="glyphicon glyphicon-map-marker"></span> 
+Tralee, Kerry </p>
 
-  <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-</svg> JohnDoe@gmail.com </li>
-</ul> 
+<p><span class="glyphicon glyphicon-phone"></span> +353 87 1654211</p>
+
+<p><span class="glyphicon glyphicon-envelope"></span> Davidmurf1@gmail.com</p>
+
 </div>
-
-
+</div>
 </div>
 
 
 
-<div id="section2" class="container-fluid">
+<div id="section2"> 
+<div class="container">
 
+<div class="col-sm-6">
+
+<h2 class="personal-bio-h">Personal Bio</h2>
+
+<p class="personal-bio-p">
+Hi, My name in David Murphy and I am a student software developer with the Code Institute. I live in Tralee where I am also studying in the Kerry College. I have previous expereince in Business completing a Bcomm in 2017 and working in the Financial Sector for a year. 
+
+</p>
+<p class="personal-bio-p">
+I began software development on Codecademy where I learned the basics of HTML, CSS and Java Script which have helped me to create two of my own websites which are both still a work in progress! I will link my GitHub for you to view!
+</p>
+
+<p class="personal-bio-p">
+ My goal with this course and learning Software is to combine my knowledge of Business with Software development in finding career where they can both be utilised. If you have any opportunities of this nature please get in touch, my details are below. 
+</p>
+
+</div>
+<div class="col-sm-6">  
+  <div id="myCarousel" class="carousel slide thumbnail" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img class="smile" src="img/rossbay1.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img class="smile" src="img/grad1.png" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img class="smile" src="img/yosemite.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
 
 </div>
 
 
 
 
-<div id="section3" class="container-fluid">
+<div id="section3" >
+<div class="jumbotron text-center" id="projects-jumbo">
 
+
+  <h2>My Projects</h2>
+  <p>What I've done & Languages I use</p>
+</div>
+  
+  <div class="container text-center">
+
+  <div class="row">
+
+  <div class="col-sm-4 ">
+      <div id="projects-item">
+      <img class="img-rounded" id="smile" src="img/earth.jpg" alt="smile">
+
+      <a href="#solar" class="btn btn-primary btn-block" data-toggle="collapse">Air B&B</a>
+      <div id="solar" class="collapse">
+      <p>My first project was made on the Solar system, using HTML & CSS</p>
+    <p> <a class="hyper" href="https://github.com/Davidmurf1/CV" target="_blank">Link Here </a> </p>
+      </div>
+      </div>
+      </div>
+
+
+ <div class="col-sm-4 ">
+      <div id="projects-item">
+      <img class="img-rounded" id="smile" src="img/air-bnb.jpg" alt="smile">
+
+      <a href="#airbnb" class="btn btn-primary btn-block" data-toggle="collapse">Air B&B</a>
+      <div id="airbnb" class="collapse">
+      <p>My second project I attempted to make a public webpage for out Air B&B listing so it could be accessed outside of Air B&B for more bookings</p>
+    <p> <a class="hyper" href="https://github.com/Davidmurf1/air-bnb" target="_blank">Link Here </a> </p>
+      </div>
+      </div>
+      </div>
+
+    <div class="col-sm-4 ">
+      <div id="projects-item">
+      <img class="img-rounded" id="smile" src="img/map-img.jpg" alt="smile">
+
+      <a href="#portfolio" class="btn btn-primary btn-block" data-toggle="collapse">My Portfolio</a>
+      <div id="portfolio" class="collapse">
+      <p>I made this project using HTML, CSS and Bootstrap for the first time. I have found bootstrap very helpful.</p>
+    <p> <a class="hyper" href="https://github.com/Davidmurf1/Portfolio" target="_blank">Link Here </a> </p>
+      </div>
+      </div>
+      </div>
+
+    <br><br>
+
+  <div class="row">
+
+    <div class="col-sm-4 ">
+      <div id="projects-item">
+      <img class="img-rounded" id="smile" src="img/html5.png" alt="smile">
+
+      <a href="#html" class="btn btn-primary btn-block" data-toggle="collapse">HTML</a>
+      <div id="html" class="collapse">
+      <p>I would consider myself proficient in HTML but with more to learn</p>
+      <div class="progress">
+      <div class="progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"> 80%
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+    <div class="col-sm-4 ">
+      <div id="projects-item">
+      <img class="img-rounded" id="smile" src="img/css1.png" alt="smile">
+
+      <a href="#css" class="btn btn-primary btn-block" data-toggle="collapse">CSS</a>
+      <div id="css" class="collapse">
+      <p>I have become confident with CSS and am still looking forward to learning more</p>
+      <div class="progress">
+      <div class="progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+    <div class="col-sm-4 ">
+      <div id="projects-item">
+      <img class="img-rounded" id="smile" src="img/bootstrap.png" alt="smile">
+
+      <a href="#bootstrap" class="btn btn-primary btn-block" data-toggle="collapse">Bootstrap</a>
+      <div id="bootstrap" class="collapse">
+      <p>I am relatively new to Bootstrap and think more practise is needed to fully benefit from the App</p>
+      <div class="progress">
+      <div class="progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"> 60%
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
 
 </div>
+</div>
+</div>
+</div>
+
 
 
 <div id="section4" class="container-fluid">
 
-
+<div class="row-2">
+<div col-sm-6>
+</div>
 </div>
 
-<div id="section5" class="container-fluid">
-
-
 </div>
-<!--
-<header class="jumbotron text-center" id="first-page">
-
-<div class="title-info">
-<img  src="img/smile.jpg" class="img-circle" alt="smile" style="height: 100px; width: 100px" id="smile"> 
-<h1>
-  David Murphy
-</h1>
-<p>
-  Full-Stack Software Developer
-</p>
-<ul>
-  <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
-</svg>   Kerry, Ireland</li>
-<li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-</svg> +353 1111111</li>
-
-  <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-</svg> JohnDoe@gmail.com </li>
-</ul>	
-</div>
-</header>
-
--->
-
-<!-- 
-<div class="jumbotron text-center">
-  <h2>About Me</h2>
-  <p>Keep Reading !</p>
-</div>
-
-<div class="container">
-  <div class="row">
-
-    <div class="col-sm-4">
-      <img class="about-me-img img-rounded" src="img/marketing.jpg" alt="Image">
-      <h2 class="about-me-title">Commerce</h2>
-      <p>I studied Commerce in College</p>
-    </div>
-
-    <div class="col-sm-4">
-      <img class="about-me-img img-rounded" src="img/finance.jpg" alt="Image">
-      <h2 class="about-me-title">Finance</h2>
-      <p>I worked as an accountant</p>
-    </div>
-
-    <div class="col-sm-4">
-      <img class="about-me-img img-rounded" src="img/coding.jpg" alt="Image">
-      <h2 class="about-me-title">Coding</h2>
-      <p>I am doing software development with the coding institute</p>
-    </div>
-
-  </div>
-</div>
-
--->
-
 
 <footer>
 
-	<div class="container-fluid">
+  <div class="container-fluid" style="padding:0px;">
   <div class="jumbotron text-center" id="contact-me">
 
 <h2 >CONTACT ME?</h2>
@@ -171,9 +263,10 @@
 
     <div class="col-sm-4">
       <p>My info is below</p>
+
       <p><span class="glyphicon glyphicon-map-marker"></span> Tralee, Kerry</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +353 9999999</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +353 87 1654211</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Davidmurf1@gmail.com</p>
     </div>
 
     <div class="col-sm-6">
@@ -191,22 +284,14 @@
           <button class="btn btn-default pull-right" type="submit">Send</button>
 
         </div>
-
       </div>
-
     </div>
-    <div class="col-sm-2">
-          <ul class="icons" style="list-style-type:none;">
-            <li>Email</li>
-            <li>LinkedIn <i class="fab fa-linkedin"></i></li>
-            <li>GitHub</li>
-            
-          </ul>
-        </div>
+    
   </div>
 </div>
 </div>
-</footer>
-</body>
 
-</html>
+</footer>
+
+
+</body>
